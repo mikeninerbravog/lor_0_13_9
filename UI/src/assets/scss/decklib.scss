@@ -1,0 +1,122 @@
+.decklib {
+  width: 100%;
+  position: relative;
+
+  .btn-container {
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 0px 0px 16px 0px;
+
+    position: relative;
+
+    .input-bar-container {
+      position: relative;
+      width: 100%;
+      display: flex;
+
+      .icon.inside {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+        width: 36px;
+        height: 50px;
+        padding: 0px;
+        font-size: 16px;
+        text-align: center;
+
+        color: var(--col-dark-white);
+        background: none;
+        outline: 0px;
+        border: 0px;
+        width: 6%;
+
+        &.left {
+          left: 10px;
+        }
+      }
+    }
+
+    .error-message {
+      position: absolute;
+      right: 20px;
+    }
+
+    .btn {
+      display: flex;
+      background: var(--col-light-grey);
+      border: 0px;
+      color: var(--col-background);
+      padding: 5px 10px;
+      cursor: pointer;
+
+      border-radius: 5px;
+
+      &:hover {
+        background: var(--col-dark-white);
+      }
+    }
+  }
+
+  .decks-container {
+    display: grid;
+    width: 100%;
+    // gap: 15px;
+    // grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    max-height: 100%;
+
+    .deck-block {
+      // padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+
+      width: auto;
+      border-radius: 10px;
+
+      .decklib-deck-title {
+        // padding: 5px 5px 8px 5px;
+        max-width: calc(100% - 40px);
+        &.w-full {
+          max-width: none;
+        }
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+
+      .btn-delete {
+        padding: 5px 5px 10px 5px;
+        color: var(--col-light-grey);
+        background: none;
+
+        &:hover {
+          color: var(--col-dark-white);
+        }
+      }
+
+      .row.deck {
+        width: auto;
+        opacity: 1;
+        background: none;
+
+        &:hover {
+          // background: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 250px) {
+  .main-content-container {
+    .decks-container {
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    }
+  }
+}

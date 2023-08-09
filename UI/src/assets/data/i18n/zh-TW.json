@@ -1,0 +1,182 @@
+{
+  "lang": "繁體中文",
+  "appName": "LoR Master Tracker 魔盒",
+  "str": {
+    "settings": "設置",
+    "loading": "加載中...",
+    "languages": "主界面語言",
+    "invalidDeck": "牌組代碼錯誤",
+    "copy": "複製",
+    "copied": "複製成功！",
+    "rounds": "回合",
+    "error": {
+      "unkown": "哪裡出了一些問題",
+      "playerNotFound": "未找到玩家",
+      "playerNoHistory": "未找到歷史記錄",
+      "localApiError": "請打開第三方端口",
+      "internalServiceError": "服務器內部錯誤",
+      "backend": "記牌器錯誤"
+    },
+    "regions": {
+      "americas": "美洲",
+      "europe": "歐洲",
+      "asia": "亞洲",
+      "sea": "東南亞",
+      "apac": "亞太"
+    },
+    "times": {
+      "sec": "{t} 秒前",
+      "min": "{t} 分鐘前",
+      "hour": "{t} 小時前",
+      "hours": "{t} 小時前",
+      "day": "{t} 天前",
+      "days": "{t} 天前"
+    },
+    "no": "否",
+    "yes": "是",
+    "tracker": "記牌器",
+    "clipboard": "剪貼板",
+    "requestConfirm": "你確定麼？",
+    "labSecrets": "實驗室機密！",
+    "delete": "刪除",
+    "meta": "環境",
+    "detail": "詳情",
+    "updating": "更新中...",
+    "noDetail": "未找到詳情",
+    "back": "返回",
+    "archetypes": "體系",
+    "leaderboard": "排行榜",
+    "nothing": "這裡空空如也",
+    "server": "服務器",
+    "retry": "重試",
+    "support": "幫助",
+    "filter": "篩選",
+    "gameType": "遊戲類型",
+    "history": "歷史",
+    "clickToAdd": "點擊 {0} 添加",
+    "expand": "展開",
+    "collapse": "折疊",
+    "lastUpdated": "更新時間",
+    "sort": "排序",
+    "patch": "當前版本",
+    "enterInfo": "請輸入您的信息",
+    "welcome": "歡迎！"
+  },
+  "loading": {
+    "readyToRock": "準備就緒 🤘",
+    "history": "努力加載歷史中...",
+    "nohistory": "沒有找到歷史數據"
+  },
+  "tracker": {
+    "tabs": {
+      "oppoPlayed": "對手已打出",
+      "myPlayed": "我方已打出"
+    },
+    "cardsInHand": "手牌數: {num}"
+  },
+  "leaderboard": {
+    "rank": "排名",
+    "name": "玩家",
+    "points": "分數",
+    "recent": "近期牌組",
+    "lastX": "最近 {num} 場",
+    "lastRank": "最近排位",
+    "desc": "了解大師環境與頂尖玩家的絕佳途徑！",
+    "lastRankTip": "僅限排位模式",
+    "ladderHighlight": "天梯高光"
+  },
+  "matches": {
+    "usage": "{num}% 使用率",
+    "game": "{num} 場",
+    "games": "{num} 場",
+    "badges": {
+      "Ranked": "排位",
+      "Bo3Challenge": "三局兩勝",
+      "StandardGauntlet": "武鬥場",
+      "Normal": "普通",
+      "LastCallQualifierGauntlet": "終極武鬥場",
+      "SeasonalTournament": "季賽",
+      "AI": "電腦"
+    },
+    "winRate": "{num}% 勝率",
+    "meta": "{num}% 環境",
+    "build": "{num}% 構築",
+    "winStreak": "{num} 連勝！",
+    "recommendedCurrent": "推薦（當前）：",
+    "recommended": "推薦：",
+    "current": "當前：",
+    "lastNumHour": "最近 {num} 小時"
+  },
+  "dash": {
+    "winRate": "勝率",
+    "winloss": "{win}勝 {loss}負"
+  },
+  "search": {
+    "leaderboard": {
+      "base": "搜索",
+      "numPlayer": "搜索 {num} 名大師玩家"
+    },
+    "player": {
+      "placeholder": "搜索全部玩家 例：Storm#5961"
+    },
+    "prompt": "⬆ 請輸入名字與後綴",
+    "bookmarks": "書籤",
+    "noBookmarks": "點擊玩家名字旁的 {0} 添加書籤",
+    "noSuggestion": "沒有數據，添加 #tag 部分精準搜索"
+  },
+  "tooltips": {
+    "lorlogin": "LoR 未登錄 / 無記錄",
+    "incompleteDeck": "卡牌缺失"
+  },
+  "contact": {
+    "messageBox": {
+      "placeholder": "來一條建議？",
+      "messageSent": "已發送",
+      "confirm": "確定？",
+      "send": "發送",
+      "messageSending": "發送中"
+    },
+    "contactUs": "聯繫我們",
+    "broughtWithLove": "為你傾❤️打造:",
+    "leaveContact": "留下一些聯繫方式以供我們後續交流？"
+  },
+  "settings": {
+    "options": {
+      "autoLaunch": "開機自動啟動:",
+      "cardLanguage": "卡牌語言",
+      "resetTrackerBounds": "重置記牌器位置與尺寸"
+    },
+    "enabled": "開啟",
+    "enable": "開啟",
+    "disabled": "關閉",
+    "disable": "關閉",
+    "reset": "重置"
+  },
+  "decklib": {
+    "title": "牌組庫",
+    "placeholder": "黏貼代碼以保存",
+    "save": "保存",
+    "saved": "已保存！",
+    "saveTo": "存入牌庫",
+    "noDecks": "點擊 {0} 保存卡組"
+  },
+  "deckCode": {
+    "archetypeStats": "體系數據",
+    "archetypeMatchups": "體系對局",
+    "mulliganGuide": "換牌策略",
+    "keep": "保留",
+    "mulligan": "替換",
+    "goodMatchup": "優勢對局",
+    "badMatchup": "劣勢對局"
+  },
+  "filter": {
+    "placeHolder": "過濾卡牌，英雄，地區"
+  },
+  "meta": {
+    "subtitle": "查看對局數據，發現蒙塵寶藏，理解最強構築與大師環境！",
+    "sort": {
+      "playRate": "使用率",
+      "winRate": "勝率"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "name": "lor-master-tracker",
+  "version": "0.13.9",
+  "private": true,
+  "author": {
+    "name": "LoR Master",
+    "email": "shaobaili3@gmail.com",
+    "url": "http://www.lormaster.com/"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:beta": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:beta": "vue-cli-service build --mode beta",
+    "lint": "vue-cli-service lint",
+    "deploy": "deploy.sh",
+    "deploy:beta": "deploy_beta.sh",
+    "deploy:beta:finish": "deploy_beta_finish.sh",
+    "build-installer": "electron-builder",
+    "build-pack": "electron-builder --dir",
+    "build-pub": "electron-builder -p always",
+    "dev": "electron app.js --dev",
+    "dev:file": "vue-cli-service build && electron app.js --file",
+    "dev:file:skip-build": "electron app.js --file",
+    "dev:hidden": "vue-cli-service build && electron app.js --hidden",
+    "get:json": "node ./devtool/downloadJson.js",
+    "get:icon": "node ./devtool/getNewChampIcon.js",
+    "test": "node ./src/modules/test.js",
+    "init": "chcp 65001",
+    "package": "electron-packager ./ LoRMasterTracker --out ./app --app-version %npm_package_version% --overwrite --icon=image.ico",
+    "serve:staging": "vue-cli-service serve --mode staging",
+    "start": "electron app.js"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "@electron/remote": "^2.0.1",
+    "@floating-ui/dom": "^0.2.0",
+    "@sentry/electron": "^2.5.4",
+    "@tailwindcss/typography": "^0.5.2",
+    "auto-launch": "^5.0.5",
+    "axios": "^0.25.0",
+    "core-js": "^3.6.5",
+    "date-fns": "^2.25.0",
+    "detect-port": "^1.3.0",
+    "electron-log": "^4.4.1",
+    "electron-store": "^8.0.1",
+    "electron-updater": "^4.3.9",
+    "html2canvas": "^1.4.1",
+    "jose": "^4.4.0",
+    "marked": "^4.0.12",
+    "mitt": "^3.0.0",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.10",
+    "runeterra": "^2.0.0",
+    "tasklist": "^4.0.1",
+    "universal-analytics": "^0.4.23",
+    "vue": "^3.0.0",
+    "vue-chart-3": "^3.1.0",
+    "vue-google-adsense": "^2.0.0",
+    "vue-i18n": "^9.2.0-beta.7",
+    "vue-router": "^4.0.12",
+    "vue-scriptx": "^0.2.5",
+    "vue-virtual-scroller": "^2.0.0-alpha.1",
+    "vuedraggable": "^4.1.0",
+    "vuex": "^4.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^10.4.0",
+    "babel-eslint": "^10.1.0",
+    "chinese-conv": "^1.0.1",
+    "electron": "^15.1.0",
+    "electron-builder": "^23.1.0",
+    "electron-packager": "^15.2.0",
+    "eslint-plugin-vue": "^9.2.0",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.6",
+    "sass": "^1.42.1",
+    "sass-loader": "^10.2.0",
+    "tailwind-scrollbar": "^1.3.1",
+    "tailwindcss": "^3.0.7"
+  },
+  "overrides": {
+    "terser": "5.14.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "build": {
+    "appId": "com.lor-master-tracker.tracker",
+    "productName": "LoRMasterTracker",
+    "directories": {
+      "output": "build"
+    },
+    "files": [
+      "**/*",
+      "dist/*"
+    ],
+    "extraFiles": [
+      {
+        "from": "./backend/",
+        "to": "backend/",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "image.ico",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "nsis": {
+      "installerIcon": "image.ico",
+      "uninstallerIcon": "uninstall.ico",
+      "license": "LICENSE",
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "LoR Master Tracker"
+    }
+  },
+  "productName": "LoR Master Tracker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaobaili3/LoR_Master"
+  }
+}

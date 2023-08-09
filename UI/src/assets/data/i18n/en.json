@@ -1,0 +1,192 @@
+{
+  "lang": "English",
+  "appName": "LoR Master Tracker",
+  "str": {
+    "settings": "Settings",
+    "meta": "Meta Environment",
+    "loading": "Loading...",
+    "updating": "Updating...",
+    "languages": "Main UI Languages",
+    "invalidDeck": "Invalid Deck Code",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "rounds": "Rounds",
+    "clipboard": "Clipboard",
+    "tracker": "Tracker",
+    "requestConfirm": "Are you sure?",
+    "yes": "Yes",
+    "no": "No",
+    "error": {
+      "unkown": "Something went wrong",
+      "playerNotFound": "Player not found",
+      "playerNoHistory": "No history found",
+      "localApiError": "Please enable 3rd party API",
+      "internalServiceError": "Internal Server Error",
+      "backend": "Tracker service error"
+    },
+    "regions": {
+      "americas": "Americas",
+      "europe": "Europe",
+      "asia": "Asia",
+      "sea": "SEA",
+      "apac": "Asia-Pacific"
+    },
+    "times": {
+      "sec": "{t} sec. ago",
+      "min": "{t} min. ago",
+      "hour": "{t} hour ago",
+      "hours": "{t} hours ago",
+      "day": "{t} day ago",
+      "days": "{t} days ago"
+    },
+    "labSecrets": "LAB SECRETS!",
+    "delete": "Delete",
+    "detail": "Detail",
+    "noDetail": "No detail found",
+    "back": "Back",
+    "archetypes": "Archetypes",
+    "leaderboard": "Leaderboard",
+    "nothing": "Nothing to see here",
+    "server": "Server",
+    "retry": "Retry",
+    "support": "Support",
+    "filter": "Filter",
+    "gameType": "Game Types",
+    "history": "History",
+    "clickToAdd": "Click {0} to add items",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "lastUpdated": "Last Updated",
+    "sort": "Sort",
+    "patch": "Current Patch",
+    "seasonal": "Seasonal Tournament",
+    "enterInfo": "Please input your info",
+    "name": "Name",
+    "tag": "Tag",
+    "username": "Username",
+    "welcome": "Welcome!"
+  },
+  "loading": {
+    "readyToRock": "Ready to rock 🤘",
+    "history": "Loading History...",
+    "nohistory": "History unavailable"
+  },
+  "tracker": {
+    "tabs": {
+      "oppoPlayed": "Opponent Played",
+      "myPlayed": "My Played"
+    },
+    "cardsInHand": "Cards in Hand: {num}"
+  },
+  "leaderboard": {
+    "rank": "Rank",
+    "name": "Name",
+    "points": "Points",
+    "lastRank": "Last Ranked",
+    "recent": "Recent Decks",
+    "lastX": "Last {num} Games",
+    "desc": "Best for discovering Top Players & understanding Master Meta!",
+    "lastRankTip": "Ranked games only",
+    "ladderHighlight": "Ladder Highlight"
+  },
+  "matches": {
+    "usage": "{num}% usage",
+    "winRate": "{num}% win",
+    "game": "{num} game",
+    "games": "{num} games",
+    "badges": {
+      "Ranked": "Ranked",
+      "Bo3Challenge": "Bo3 Challenge",
+      "StandardGauntlet": "Gauntlet",
+      "Normal": "Normal",
+      "LastCallQualifierGauntlet": "Last Chance Gauntlet",
+      "SeasonalTournament": "Seasonal",
+      "AI": "AI"
+    },
+    "lastNumHour": "Last {num} hr",
+    "build": "{num}% build",
+    "meta": "{num}% meta",
+    "winStreak": "{num} games win streak!",
+    "recommendedCurrent": "Recommended (Current):",
+    "recommended": "Recommended:",
+    "current": "Current:"
+  },
+  "dash": {
+    "winRate": "Win",
+    "winloss": "{win}W {loss}L"
+  },
+  "search": {
+    "leaderboard": {
+      "base": "Search",
+      "numPlayer": "Search {num} Master Players"
+    },
+    "player": {
+      "placeholder": "Search all players. eg.Storm#5961"
+    },
+    "prompt": "⬆ Enter name and tag to search",
+    "bookmarks": "Bookmark",
+    "noBookmarks": "Click {0} next to player names to add",
+    "noSuggestion": "No suggestions, try add #tag for precise search"
+  },
+  "tooltips": {
+    "lorlogin": "Please login LoR",
+    "incompleteDeck": "Incomplete Deck"
+  },
+  "contact": {
+    "messageBox": {
+      "placeholder": "Any suggestions?",
+      "messageSent": "Message Sent",
+      "confirm": "Confirm?",
+      "send": "Send",
+      "messageSending": "Sending..."
+    },
+    "contactUs": "Contact Us",
+    "broughtWithLove": "Brought to you with ❤️ by",
+    "leaveContact": "Leave some contacts (Discord, email, etc) so we can follow up?"
+  },
+  "settings": {
+    "options": {
+      "autoLaunch": "Auto Launch on Startup:",
+      "cardLanguage": "Card Text Language",
+      "resetTrackerBounds": "Reset Tracker Position & Size"
+    },
+    "enabled": "Enabled",
+    "enable": "Enable",
+    "disabled": "Disabled",
+    "disable": "Disable",
+    "reset": "Reset"
+  },
+  "decklib": {
+    "title": "Deck Library",
+    "placeholder": "Paste your deck code here",
+    "save": "Save",
+    "saved": "Saved!",
+    "saveTo": "Save to Deck Lib.",
+    "noDecks": "Click {0} to save decks"
+  },
+  "deckCode": {
+    "archetypeStats": "Archetype Stats",
+    "archetypeMatchups": "Archetype Matchups",
+    "mulliganGuide": "Mulligan Guide",
+    "keep": "Keep",
+    "mulligan": "Mulligan",
+    "goodMatchup": "Good Matchups",
+    "badMatchup": "Bad Matchups"
+  },
+  "filter": {
+    "placeHolder": "Filter Cards, Champions, Regions..."
+  },
+  "meta": {
+    "subtitle": "View matchup statistics. Discover hidden gems, best builds and meta trends!",
+    "sort": {
+      "playRate": "Play Rate",
+      "winRate": "Win Rate"
+    }
+  },
+  "update": {
+    "updated": "Updated",
+    "updateOnStart": "Update on next start",
+    "process": "Downloading...{percent}%",
+    "lastest": "Latest: {version}"
+  }
+}
