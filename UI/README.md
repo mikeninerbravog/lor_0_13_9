@@ -1,4 +1,4 @@
-# LoR-Master-UI
+# maru-UI
 
 ## Project setup
 ```

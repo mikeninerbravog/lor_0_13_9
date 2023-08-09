@@ -24,6 +24,6 @@ git branch -m master main
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:LoR-Master/lor-master-web-app.git main:gh-pages
+git push -f git@github.com:maru/maru-web-app.git main:gh-pages
 
 cd -

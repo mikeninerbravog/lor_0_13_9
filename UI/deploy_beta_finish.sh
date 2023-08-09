@@ -21,6 +21,6 @@ git commit -m 'deploy'
 git branch -m master main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:LoR-Master/lor-master-web-app-beta.git main:gh-pages
+git push -f git@github.com:maru/maru-web-app-beta.git main:gh-pages
 
 cd -

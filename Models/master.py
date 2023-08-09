@@ -9,7 +9,7 @@ session = requests.Session()
 
 
 def get_playernames(server):
-    url = f"https://raw.githubusercontent.com/LoR-Master-Tracker/LoR-Player-Crawler/master/save/{server}.json"
+    url = f"https://raw.githubusercontent.com/maru-Tracker/LoR-Player-Crawler/master/save/{server}.json"
     print('Loading: ', url)
     r = session.get(url)
 

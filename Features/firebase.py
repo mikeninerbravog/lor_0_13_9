@@ -10,7 +10,7 @@ from match import getDetails, getPlayerPUUID
 
 def initialFirebase():
     # Use a service account
-    cred = credentials.Certificate('lor-master-firebase-adminsdk-zgtn7-21c20de161.json')
+    cred = credentials.Certificate('maru-firebase-adminsdk-zgtn7-21c20de161.json')
     firebase_admin.initialize_app(cred)
     db = firestore.client()
     return db
